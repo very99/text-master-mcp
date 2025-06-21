@@ -1,0 +1,56 @@
+{
+  "name": "text-master-mcp",
+  "version": "1.0.0",
+  "description": "📝 A comprehensive MCP server for text processing, formatting, and analysis. The ultimate text manipulation toolkit!",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "text-master-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "text-processing",
+    "text-formatting",
+    "text-analysis",
+    "markdown",
+    "encoding",
+    "case-conversion",
+    "claude",
+    "amazon-q",
+    "ai-tools",
+    "developer-tools"
+  ],
+  "author": "very99",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/very99/text-master-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/very99/text-master-mcp/issues"
+  },
+  "homepage": "https://github.com/very99/text-master-mcp#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ]
+}
